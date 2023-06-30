@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+         .btn{
+            padding: 15px 30px;
+            /* background-color: red; */
+            color: #fff;
+            border: none;
+            font-size: 20px;
+            position: relative;
+        }
+
+        .btn button{
+            background-color: red;
+            color: #fff;
+            padding: 15px 20px;
+            font-size: 20px;
+            border: none;
+        }
+        .hvr{
+            visibility: hidden; 
+            position: absolute;
+            color: black;
+            left: 100px;
+            background-color: beige;
+            border: 3px solid gray;
+        }
+
+        button:hover .hvr{
+             visibility: visible;
+            
+        }
+       
+        
+    </style>
+</head>
+
+<body>
+    <div class="btn">
+        <button>
+            <i class="fa fa-home"></i>
+            <div class="hvr">Hello!</div>
+        </button>
+        
+        
+   </div>
+
+   
+</body>
+</html>

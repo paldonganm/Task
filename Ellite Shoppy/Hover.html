@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+    
+
+        .container{
+            display: flex;
+        }
+        .bg{
+            height: 300px;
+            width: 500px;
+            background:url(https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom1.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .41s;
+            background-position: -40px 0;
+            position: relative;
+            color:#fff;
+        }
+
+        .bg1{
+            height: 300px;
+            width: 500px;
+            background:url(https://p.w3layouts.com/demos_new/template_demo/20-06-2017/elite_shoppy-demo_Free/1660570665/web/images/bottom2.jpg);
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: .41s;
+            background-position: -40px 0;
+            position: relative;
+            color:#fff;
+        }
+
+        .bg,.bg1:hover 
+        {
+            background-position: 0px 0;
+        }
+
+        .effect{
+            color: #fff;
+            height: 220px;
+            width: 400px;
+            border: 5px solid #fff;
+            padding: 130px 0 0 150px;
+            font-size: 20px;
+            letter-spacing: 6px;
+            font-weight: 300px;
+            opacity: 0;
+            margin-left: -20px;
+            transition: .41s;
+        }
+
+        .bg1:hover .effect{
+            opacity: 1;
+            margin-left: 0;
+        }
+
+        .bg:hover .effect{
+            opacity: 1;
+            margin-left: 0;
+        }
+
+        h1{
+            position: absolute;
+            font-weight: 300;
+            top: 100px;
+            left: 170px;
+            margin: 0;
+            letter-spacing: 5px;
+        }
+
+        h1 span{
+            color: red;
+            font-weight: bold;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bg">
+            <h1><span>F</span>ALL AHEAD</h1>
+            <div class="effect">
+                New Arrivals
+            </div>
+        </div>
+
+        <div class="bg1">
+            <h1><span>F</span>ALL AHEAD</h1>
+            <div class="effect">
+                New Arrivals
+            </div>
+        </div>
+    </div>
+</body>
+</html>

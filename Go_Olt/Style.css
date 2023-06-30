@@ -1,0 +1,468 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(37, 37, 37);
+    /* overflow: hidden; */
+}
+
+.container {
+    margin: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left, .right {
+    height: 630px;
+    width: 350px;
+    background: linear-gradient(rgb(58, 58, 58), rgb(37, 37, 37));
+    border: 1px solid rgb(76, 76, 76);
+    border-radius: 25px;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 10px #d4d4d46a;
+}
+
+.mid {
+    height: 630px;
+    width: 350px;
+    background: linear-gradient(rgb(58, 58, 58), rgb(37, 37, 37));
+    border: 1px solid rgb(76, 76, 76);
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px #d4d4d46a;
+    position: relative;
+}
+
+/* Header */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: -27px;
+}
+
+.btn {
+    display: flex;
+}
+
+.btn i {
+    height: 40px;
+    width: 40px;
+    background: rgb(40, 40, 40);
+    color: rgb(164, 164, 164);
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: 13px;
+    box-shadow: 0px 0px 10px #d4d4d46a;
+    transition: 1s;
+}
+
+.btn i:hover {
+    background-color: rgb(101, 185, 101);
+    color: black;
+}
+
+/* Content */
+
+.content img {
+    margin: auto 50px;
+}
+
+.top {
+    display: flex;
+}
+
+.c1 {
+    height: 47px;
+    width: 47px;
+    border-radius: 50%;
+    background: #000;
+    position: relative;
+    box-shadow: 0px 0px 8px #d4d4d46a;
+    margin-right: 10px;
+}
+
+.fa-gear {
+    height: 40px;
+    width: 40px;
+    background: rgb(40, 40, 40);
+    color: rgb(164, 164, 164);
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    transition: 1s;
+}
+
+.fa-gear:hover {
+    background-color: rgb(101, 185, 101);
+    color: black;
+}
+
+.fa-tools {
+    height: 40px;
+    width: 40px;
+    background: rgb(40, 40, 40);
+    color: rgb(164, 164, 164);
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    transition: 1s;
+}
+
+.fa-tools:hover {
+    background-color: rgb(101, 185, 101);
+    color: black;
+}
+
+
+.btn1::after {
+    content: "scooter info";
+    background: rgb(40, 40, 40);
+    color: rgb(164, 164, 164);
+    border-radius: 50px;
+    padding: 10px 20px;
+    position: absolute;
+    margin: 5px 7px;
+    transition: 1s;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-left: 50px;
+    box-shadow: 0px 0px 8px #d4d4d46a;
+}
+
+.btn1:hover::after {
+    background-color: rgb(101, 185, 101);
+    color: black;
+
+}
+
+.footer span {
+    text-align: center;
+    color: rgb(164, 164, 164);
+    font-size: 12px;
+}
+
+.bot {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 14px;
+}
+
+#location{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(101, 185, 101);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 17px;
+    text-align: center;
+    padding-top: 12px;
+    margin-left: 12px;
+    transition: 1s;
+    box-shadow: 0px 0px 8px #d4d4d46a;
+}
+
+#location:hover {
+    background: #fff;
+    color: rgb(40, 40, 40);
+}
+
+.fa-bolt {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(101, 185, 101);
+    color: #fff;
+    border-radius: 50%;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 26px;
+    transition: 1s;
+    box-shadow: 0px 0px 8px #d4d4d46a;
+    margin: 0 auto;
+}
+
+.fa-bolt:hover {
+    background: #fff;
+    color: rgb(40, 40, 40);
+}
+
+.fa-unlock, .fa-minus {
+    font-size: 20px;
+    color: rgb(164, 164, 164);
+    padding-right: 20px;
+    font-weight: 200px;
+}
+
+.icon {
+    margin-top: 30px;
+}
+
+.x {
+    display: block;
+}
+
+.x span {
+    text-align: center;
+}
+
+.y span {
+    color: #fff;
+    padding-top: 17px;
+    text-align: center;
+}
+
+.y {
+    display: grid;
+}
+
+/* Middle */
+
+.header_mid {
+    height: 105px;
+    width: 348px;
+    border: 1px solid rgb(76, 76, 76);
+    border-radius: 28px;
+    padding: 26px 7px;
+}
+
+.footer_mid {
+    height: 105px;
+    width: 348px;
+    border: 1px solid rgb(76, 76, 76);
+    border-radius: 28px;
+    padding: 26px 7px;
+    position: absolute;
+    bottom: 1px;
+    background: rgb(40, 40, 40);
+    /* margin-top: 420px; */
+}
+
+.footer_btn {
+    background: rgb(40, 40, 40);
+    color: rgb(164, 164, 164);
+    border-radius: 50px;
+    box-shadow: 0px 0px 8px #d4d4d46a;
+    width: 90%;
+    padding: 10px 20px;
+    margin: 5px auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 1s;
+    z-index: 4;
+}
+
+.footer_btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+.circle {
+    height: 40px;
+    width: 40px;
+    border: 2px solid rgb(76, 76, 76);
+    border-radius: 50%;
+    font-family: cursive;
+    color: rgb(164, 164, 164);
+    line-height: 40px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    padding-right: 6px;
+}
+
+.header_row h3 {
+    font-size: 20px;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.header_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    position: relative;
+    height: 170px;
+    width: 170px;
+    background: #000;
+    border-radius: 50%;
+    position: relative;
+    margin: 20px auto;
+    padding: 10px 10px
+}
+
+.parent 
+{
+    height: 150px;
+    width: 150px;
+    background: rgba(98, 98, 98, 0.378);
+    border-radius: 50%;
+    transition: 1s;
+    position: relative;
+   }
+
+.parent::before 
+{
+        content: '';
+        height: 150px;
+        width: 150px;
+        /* background: conic-gradient(red 0deg,red 90deg,transparent 90deg,transparent 180deg,red 180deg,red 270deg,transparent 270deg,transparent 360deg); */
+        background:conic-gradient(transparent 0deg,transparent 90deg,rgb(101, 185, 101) 90deg,rgb(101, 185, 101) 180deg,rgb(101, 185, 101) 180deg,rgb(101, 185, 101) 360deg,transparent 270deg);
+        position: absolute;
+        /* top:0;
+        left:0;      */
+        border-radius: 50%;   
+}
+.parent:hover
+{
+    transform: rotate(360deg);
+}
+
+.parent::after
+{
+        content: '80%';
+        color: #fff;
+        text-align: center;
+        line-height: 108px;
+        font-size: 25px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        height: 108px;
+        width: 108px;
+        background: #000;
+        position: absolute;
+        top:50%;
+        left:50%;
+        border-radius: 50%;
+        transform: translate(-50%,-50%);
+}
+.dot::before 
+{
+    content: '';
+    height: 28px;
+    width: 28px;
+    background: rgb(101, 185, 101);
+    position: absolute;
+    top: 0px;
+    left: 44%;
+    border-radius: 50%;
+}
+
+.dot::after
+{
+    content: '';
+    height: 26px;
+    width: 20px;
+    background: rgb(101, 185, 101);
+    position: absolute;
+    top: 41%;
+    left: 86%;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.txt{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.txt span{
+    color: #fff;
+    font-weight: 800;
+}
+
+.txt p{
+    color: gray;
+}
+
+.bot_rgt_txt{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 23px;
+}
+
+.one,.sec,.third{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.bot_left{
+    font-family: sans-serif;
+}
+
+.bot_left i{
+    padding-right: 10px;
+    color: gray;
+}
+
+.bot_left p{
+    color: #fff;
+    font-size: 12px;
+}
+
+.fa-clock{
+    padding-left:8px;
+    padding-right: 8px;
+}
+
+.bot_right{
+    line-height: 68px;
+}
+
+.footer_bot{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fa-share,.fa-hourglass-end{
+    height: 40px;
+    width: 40px;
+    background: rgb(40, 40, 40);
+    color: rgb(164, 164, 164);
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    transition: 1s;
+}
+
+.fa-share:hover {
+    background-color: rgb(101, 185, 101);
+    color: black;
+}
+
+.fa-hourglass-end:hover {
+    background-color: rgb(101, 185, 101);
+    color: black;
+}
+
+.footer_txt span{
+    color:rgb(164, 164, 164);
+    font-size: 12px;
+    padding-right: 10px;
+}

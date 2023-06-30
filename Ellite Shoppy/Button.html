@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+        .x button{
+            background-color: #2fdab8 ;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            letter-spacing: 3px;
+            font-size: 15px;
+            margin-top: 7px;
+            margin-bottom: 7px;
+            margin-left: 5px;
+            margin-right: 5px;
+            visibility: visible;
+            text-shadow: 2px 1px 2px gray;
+        }
+
+        .effect{
+            transition: 1s;
+            transform: translateZ(0);
+        } 
+
+        .x button:hover{
+            outline: 3px solid #2fdab8;
+            outline-offset: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="x">
+            <button>Shop Now</button>
+            <div class="effect"></div>
+    </div>
+</body>
+</html>

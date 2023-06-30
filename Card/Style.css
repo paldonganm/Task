@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body{
+    background: linear-gradient(to right,lightpink,rgb(92, 21, 199));
+    /* filter: blur(5px); */
+}
+
+.container{
+    background: linear-gradient(to left,lightpink,rgb(92, 21, 199));
+    border: 1px solid #d4d4d4;
+    border-radius: 16px;
+    height: 660px;
+    width: 1124px;
+    margin: 60px auto;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
+
+.circle{
+    background: linear-gradient(to right,lightpink,rgb(81, 21, 202));
+    border: 0px solid #d4d4d4;
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+    top: 150px;
+    right: -180px;
+    box-shadow: 10px 10px 3px #dfdfdf outset;
+    position: absolute;
+}
+
+/* Header start */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 50px 70px;
+    line-height: 39px;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo img{
+    padding-right: 6px;
+    height: 20px;
+    transform: rotate(-79deg);
+}
+.navbar{
+    display: flex; 
+    font-size: 15px;
+}
+
+.navbar button{
+    padding: 0px 26px;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.navbar button:hover{
+    background-color: #fff;
+    color: black;
+   transition: 0.2s;
+}
+
+.header ul li{
+    display: inline;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 20px;
+}
+
+.navbar ul li a:hover{
+    color: black;
+}
+/* Header End */
+
+.x{
+    display: flex;
+}
+.txt{
+ padding-left: 80px;
+ padding-top: 30px;
+}
+
+.txt span{
+    color: rgb(62, 200, 62);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.txt h1{
+    padding-top: 7px;
+    font-size: 38px;
+    color: #fff;
+    padding-bottom: 22px;
+}
+
+.txt p{
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.txt .btn{
+    padding-bottom: 100px;
+}
+.txt .btn1{
+    padding: 10px 20px;
+    background: rgb(55, 114, 232);
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+}
+
+.txt .btn1:hover{
+    background: black;
+    color: #fff;
+}
+
+.txt .btn1 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn2 a{
+    color: #fff;
+    text-decoration: none;
+}
+.txt .btn2{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.txt .footer{
+    font-size: 12px;
+}
+
+.txt .footer a{
+    color: lightpink;
+}
+
+.small-circle{
+    background: linear-gradient(to bottom,lightpink,rgb(81, 21, 202));
+    border: 0px solid #d4d4d4;
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    position: absolute;
+    left: 500px;
+    top: 200px;
+}
+
+.small-circle1{
+    background: linear-gradient(to right,lightpink 30%,rgba(148, 116, 212, 0.798));
+    border: 0px solid #d4d4d4;
+    border-radius: 50%;
+    height: 13px;
+    width: 13px;
+    position: absolute;
+    left: 30px;
+    top: 250px;
+}
+
+.small-circle2{
+    background: linear-gradient(to right,lightpink 30%,rgba(148, 116, 212, 0.798));
+    border: 0px solid #d4d4d4;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    position: absolute;
+    bottom: 1s00px;
+    left: 400px;
+}
+
+.small-circle3{
+    background: linear-gradient(to right,rgba(148, 116, 212, 0.798),lightpink);
+    border: 0px solid #d4d4d4;
+    border-radius: 50%;
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    left: 800px;
+    top: 100px;
+}
+
+/* Card1 start */
+
+.card1{
+    background: rgba(255, 255, 255, 0.23);
+    height: 232px;
+    width: 367px;
+    position: absolute;
+    border: 1px solid lightpink;
+    border-radius: 10px;
+    padding: 10px 25px;
+    transform: rotate(18deg);
+    /* transform: skewY(10deg); */
+    margin-left: 120px;
+    margin-top: 30px;
+    z-index: 1;
+}
+
+.card1 h2{
+    font-size: 32px;
+    color: #fff;
+    font-family: 'New Tegomin', serif;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-left: 230px;
+}
+
+.card1 .num{
+  padding: 46px 0px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.bottom{
+    display: flex;
+    color: #fff;
+}
+
+.bottom .left span{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 10px;
+}
+
+.bottom .left p{
+    padding-top: 5px;
+}
+
+.bottom .right{
+    padding-left: 170px;
+}
+
+.bottom .right span{
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 10px;
+}
+
+.bottom .right p{
+    padding-top: 5px;
+}
+
+/* Card1 End */
+
+
+/* Card2 Start */
+
+.card2{
+    background: rgba(255, 255, 255, 0.23);
+    height: 173px;
+    width: 280px;
+    border: 1px solid rgba(148, 116, 212, 0.798);
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-top: 240px; 
+    position: absolute;
+    transform: rotate(-18deg);
+    padding: 10px 14px;
+    z-index: 0;
+}
+
+.card2 h2{
+    font-size: 22px;
+    color: #fff;
+    font-family: 'New Tegomin', serif;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-left: 200px;
+    filter: blur(3px);
+}
+
+.card2 .num{
+    padding: 30px 0px;
+    font-size: 19px;
+    font-weight: 400;
+    color: #fff;
+  }
+  
+  .card2 .bottom{
+      display: flex;
+      color: #fff;
+  }
+  
+  .card2 .bottom .left span{
+      text-transform: uppercase;
+      font-weight: 200;
+      font-size: 7px;
+  }
+  
+  .card2 .bottom .left p{
+      padding-top: 3px;
+      font-size: 13px;
+  }
+  
+  .card2  .bottom .right{
+      padding-left: 140px;
+  }
+  
+  .card2  .bottom .right span{
+      text-transform: uppercase;
+      font-weight: 200;
+      font-size: 7px;
+  }
+  
+  .card2 .bottom .right p{
+      padding-top: 5px;
+      font-size: 13px;
+  }
+
+/* Card2 End */

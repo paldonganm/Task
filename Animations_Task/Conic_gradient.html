@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
+</head>
+<style>
+    .parent {
+        height: 100px;
+        width: 200px;
+        background: conic-gradient(red 0deg, red 90deg, transparent 90deg, transparent 180deg, red 180deg, red 270deg, transparent 270deg, transparent 360deg);
+        margin: 100px auto;
+        position: relative;
+    }
+
+    .parent::before {
+        content: '';
+        height: 70px;
+        width: 170px;
+        background: #fff;
+        position: absolute;
+        margin: 14px 15px;
+    }
+
+    .parent p {
+        text-align: center;
+        line-height: 50px;
+        position: absolute;
+        left: 30%;
+        top: -8px;
+        font-size: 35px;
+        letter-spacing: 15px;
+        color: rgb(39, 39, 129);
+        font-weight: bold;
+    }
+
+    p span {
+        font-family: cursive;
+    }
+
+    ul li{
+        list-style: none;
+        font-size: 20px;
+        text-align: center;
+        padding-bottom: 50px;
+    
+    }
+
+    ul li a{
+        text-decoration: none;
+        color: rgb(39, 39, 129);
+    }
+
+    ul li a i{
+        padding-right: 10px;
+    }
+
+    ul span{
+        color: red;
+    }
+
+</style>
+
+<body>
+    <div class="parent">
+        <p><span>P</span>al</p>
+    </div>
+
+    <ul>
+        <li>
+            <a href="#"><span><i class="fa fa-home"></i>Home</span></a>
+        </li>
+
+        <li>
+            <a href="#"><i class="fa fa-user"></i>About</a>
+        </li>
+
+        <li>
+            <a href="#"><i class="fa-solid fa-list"></i>About</a>
+        </li>
+
+       <li>
+        <a href="#"><i class="fa-sharp fa-solid fa-briefcase"></i>Portfolio</a>
+       </li>
+    </ul>
+</body>
+
+</html>
